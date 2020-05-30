@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nmd-rz-gGG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SowadKA3Q2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="HV3-lv-f7e">
+                                <rect key="frame" x="25" y="187" width="181" height="176"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jye-YM-TXr">
+                                <rect key="frame" x="20" y="405" width="374" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="RnJ-68-ANA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L7w-0v-xLO">
+                                <rect key="frame" x="129" y="520" width="157" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="ltL-yc-RKI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <state key="normal" title="ROLL!">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="rollButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2OV-uI-EIy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWb-Zx-pWP">
+                                <rect key="frame" x="129" y="523" width="157" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="ROLL!">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="rollButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zop-QC-75a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opm-F9-GAT">
+                                <rect key="frame" x="112" y="644" width="190" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Play Again!">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="replayButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IHg-k8-DhM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5U-vx-PsF">
+                                <rect key="frame" x="38" y="44" width="338" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="hew-z3-2iv">
+                                <rect key="frame" x="214" y="187" width="180" height="176"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="10h-oF-H9c"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hew-z3-2iv" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="AY0-fc-wVs"/>
+                            <constraint firstItem="hew-z3-2iv" firstAttribute="trailing" secondItem="Jye-YM-TXr" secondAttribute="trailing" id="I1V-jq-695"/>
+                            <constraint firstItem="hew-z3-2iv" firstAttribute="leading" secondItem="HV3-lv-f7e" secondAttribute="trailing" constant="13" id="Mrn-Sa-QJK"/>
+                            <constraint firstItem="L7w-0v-xLO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="OjS-jI-Trh"/>
+                            <constraint firstItem="Jye-YM-TXr" firstAttribute="top" secondItem="HV3-lv-f7e" secondAttribute="bottom" constant="42" id="QNt-93-dVv"/>
+                            <constraint firstItem="HV3-lv-f7e" firstAttribute="top" secondItem="hew-z3-2iv" secondAttribute="top" id="TdP-OU-ms6"/>
+                            <constraint firstItem="HV3-lv-f7e" firstAttribute="leading" secondItem="Jye-YM-TXr" secondAttribute="leading" id="Yme-7b-4KY"/>
+                            <constraint firstItem="HV3-lv-f7e" firstAttribute="bottom" secondItem="hew-z3-2iv" secondAttribute="bottom" id="dli-Cr-mk3"/>
+                            <constraint firstItem="L7w-0v-xLO" firstAttribute="top" secondItem="Jye-YM-TXr" secondAttribute="bottom" constant="26" id="hMR-jZ-Ghl"/>
+                            <constraint firstItem="HV3-lv-f7e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="hRp-Nb-gb8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="L7w-0v-xLO" secondAttribute="bottom" constant="333" id="kyx-lk-Xvr"/>
+                            <constraint firstItem="Jye-YM-TXr" firstAttribute="centerX" secondItem="L7w-0v-xLO" secondAttribute="centerX" id="u3R-Bx-4T9"/>
+                            <constraint firstItem="HV3-lv-f7e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ugf-7a-1WZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pw6-P3-fhY"/>
+                    <connections>
+                        <outlet property="dice1" destination="HV3-lv-f7e" id="Df7-dT-gFi"/>
+                        <outlet property="dice2" destination="hew-z3-2iv" id="Tgi-wn-OiO"/>
+                        <outlet property="label1" destination="Jye-YM-TXr" id="znN-NU-nLM"/>
+                        <outlet property="label2" destination="u5U-vx-PsF" id="hgc-M8-cqF"/>
+                        <outlet property="replayButton" destination="opm-F9-GAT" id="3pV-Ih-5Y1"/>
+                        <outlet property="rollButton" destination="L7w-0v-xLO" id="vYr-i9-3aE"/>
+                        <outlet property="rollButton2" destination="CWb-Zx-pWP" id="Bna-nI-xf7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-168" y="-206"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="qG1-zj-j8v">
+            <objects>
+                <viewController id="Nmd-rz-gGG" customClass="SecondViewController" customModule="SowadKA3Q2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hff-2Q-we8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxL-KG-vc4">
+                                <rect key="frame" x="161" y="684" width="92" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="PLAY">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButton" destination="Nmd-rz-gGG" eventType="touchUpInside" id="5BD-cM-pIy"/>
+                                    <action selector="playButton:" destination="Nmd-rz-gGG" eventType="touchUpInside" id="8Yf-eP-djk"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="segue" id="w0Z-HN-rXA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Craps Dice Game Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uj3-Qp-Jxb">
+                                <rect key="frame" x="11" y="86" width="393" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="q2Q-5X-ve8">
+                                <rect key="frame" x="28" y="165" width="359" height="481"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">To play, roll the dice. If the sum is 2, 3, or 12, you lose. If it is 7 or 11, you win. If it is neither, you will have however many points you rolled previously. From this point, you have to roll that same number to win, but if you roll 7 you will lose. Good luck!</string>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="h9w-BB-f6h"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="q2Q-5X-ve8" id="4Pz-gG-yUr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wQj-sB-aWL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-907" y="-206"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="1200" height="1200"/>
+        <image name="5" width="1200" height="1200"/>
+    </resources>
+</document>
